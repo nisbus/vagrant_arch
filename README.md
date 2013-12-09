@@ -5,11 +5,11 @@ vagrant_arch
 I just started this and am copying my arch box setup to puppet  
 This should download my box file and setup the following  
   
-Xmonad
-Xmobar
-Erlang
-Emacs
-
+Xmonad  
+Xmobar  
+Erlang  
+Emacs  
+  
 .....  
   
 clone this repo and do 
