@@ -13,9 +13,9 @@ Emacs
 .....  
   
 clone this repo and do 
-  ``vagrant up  
+  ``vagrant up``  
 That should start downloading the box and boot up.  
 After booting, try  
-  ``vagrant provision  
+  ``vagrant provision``  
 Puppet should install the above packages.  
   
