@@ -1,3 +1,5 @@
+
+
 group { "puppet":
   ensure => "present",
 }
@@ -8,8 +10,8 @@ file { '/etc/motd':
   content => "Welcome to your Vagrant-built virtual machine!
               Managed by Puppet.\n"
 }
-
-node 'default' {
+	
+node 'default' {	
 	include "baseconfig"
 	include "xmonad"	
 	include "developer"
