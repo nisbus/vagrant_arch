@@ -41,4 +41,7 @@ class baseconfig {
 	package { 'rxvt-unicode' :
 			ensure => present;
 	}
+	package { 'chromium':
+		ensure => present;
+	}
 }
