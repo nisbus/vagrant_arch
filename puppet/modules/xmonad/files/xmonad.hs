@@ -281,6 +281,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
     , ((modMask .|.  shiftMask, xK_u ), spawn "unison-gtk2 default")
     , ((modMask .|.  shiftMask, xK_p ), spawn "pidgin")
     , ((modMask .|.  shiftMask, xK_b ), spawn "chromium")
+	, ((modMask .|.  shiftMask, xK_a ), spawn "emacs")
 
     -- volume control
     , ((0 			, 0x1008ff13 ), spawn "amixer -q set Master 2dB+")
