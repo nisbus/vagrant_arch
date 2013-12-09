@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "packed"
+  config.vm.box = "nisbus"
   config.vm.box_url = "http://box.nisbus.com/packer_arch_virtualbox.box"
   config.vm.network :forwarded_port, guest: 80, host: 8000
   config.vm.provider :virtualbox do |vb|
